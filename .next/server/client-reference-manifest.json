@@ -131,16 +131,16 @@
       ],
       "async": false
     },
-    "/Users/sijan/Developer/frontend-assignment/components/Header.tsx": {
-      "id": "(app-client)/./components/Header.tsx",
+    "/Users/sijan/Developer/frontend-assignment/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/Users/sijan/Developer/frontend-assignment/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "/Users/sijan/Developer/frontend-assignment/components/Header.tsx": {
+      "id": "(app-client)/./components/Header.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"

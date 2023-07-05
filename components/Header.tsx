@@ -3,19 +3,20 @@
 import Image from "next/image";
 import img from "/public/logo.png";
 import Link from "next/link";
+import { AiOutlineSearch } from "react-icons/ai";
+
 function Header() {
   return (
-    <header className="">
+    <header className="flex justify-between items-center pt-3 pb-3">
       <Link href="/">
         <Image
           src={img}
           alt="logo"
-          width={100}
-          height={100}
-          className="object-contain mr-10"
+          width={50}
+          className="object-contain ml-10"
         />
       </Link>
-      <nav>
+      <nav className="flex gap-10">
         <div>
           <Link href="/">
             <span>Home</span>
@@ -37,6 +38,7 @@ function Header() {
           </Link>
         </div>
       </nav>
+      <AiOutlineSearch className="mr-10"/>
     </header>
   );
 }
