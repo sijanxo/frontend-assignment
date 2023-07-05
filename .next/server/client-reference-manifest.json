@@ -40,6 +40,14 @@
         "async": false
       }
     },
+    "(app-client)/./public/bg.webp": {
+      "*": {
+        "id": "(sc_client)/./public/bg.webp",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/Header.tsx": {
       "*": {
         "id": "(sc_client)/./components/Header.tsx",
@@ -131,6 +139,22 @@
       ],
       "async": false
     },
+    "/Users/sijan/Developer/frontend-assignment/node_modules/next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Notable\",\"arguments\":[{\"weight\":\"400\",\"subsets\":[\"latin\"],\"display\":\"swap\"}],\"variableName\":\"notable\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Notable\",\"arguments\":[{\"weight\":\"400\",\"subsets\":[\"latin\"],\"display\":\"swap\"}],\"variableName\":\"notable\"}",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/sijan/Developer/frontend-assignment/public/bg.webp": {
+      "id": "(app-client)/./public/bg.webp",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/sijan/Developer/frontend-assignment/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
       "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "name": "*",
@@ -157,7 +181,9 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/sijan/Developer/frontend-assignment/app/page": [],
+    "/Users/sijan/Developer/frontend-assignment/app/page": [
+      "static/css/app/page.css"
+    ],
     "/Users/sijan/Developer/frontend-assignment/app/layout": [
       "static/css/app/layout.css"
     ]

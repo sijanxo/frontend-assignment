@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
 
@@ -24,3 +25,4 @@ header {
   background-color: #FF3333;
   color: white;
 }
+

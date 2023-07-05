@@ -1,0 +1,15 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[3].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/page.tsx","import":"Notable","arguments":[{"weight":"400","subsets":["latin"],"display":"swap"}],"variableName":"notable"} ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* latin */
+@font-face {
+  font-family: '__Notable_e8225d';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/76a271f559be91fb-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Notable_Fallback_e8225d';src: local("Arial");ascent-override: 65.95%;descent-override: 9.06%;line-gap-override: 0.00%;size-adjust: 173.31%
+}.__className_e8225d {font-family: '__Notable_e8225d', '__Notable_Fallback_e8225d';font-weight: 400;font-style: normal
+}
+
